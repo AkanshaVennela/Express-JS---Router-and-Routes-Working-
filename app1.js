@@ -1,3 +1,4 @@
+//Starter version of the main app.js file
 "use strict";
 const express = require("express");
 const app = express();

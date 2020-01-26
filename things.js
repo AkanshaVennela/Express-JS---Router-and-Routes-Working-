@@ -1,3 +1,4 @@
+// routes/things.js routing file
 "use strict";
 const express = require("express");
 let router = express.Router();

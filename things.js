@@ -3,6 +3,7 @@
 const express = require("express");
 let router = express.Router();
 
+//this is the middle ware
 router.use(function(req, res, next) {
   console.log(req.url, "@", Date.now());
   next();
